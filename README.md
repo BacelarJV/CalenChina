@@ -11,7 +11,7 @@ https://utfpr-gp.github.io/roubank-app/
 
 ## Protótipo
 
-https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id=3%3A80
+https://www.figma.com/file/hKJtfDUAmheI9bx8dJq4f6/Untitled?type=design&node-id=0%3A1&mode=design&t=ryJ7KUM46CaU77O3-1
 
 ## Checklist
 
