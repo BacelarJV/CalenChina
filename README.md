@@ -2,8 +2,6 @@
 
 Este projeto tem como objetivo implementar um calendário Chines e simular o animal respectivo do ano digitado.
 
-O frontend da aplicação foi desenvolvido com Angular e o backend foi simulado pela implementação de uma API Fake, usando o JSON Server.
-
 ## Endereço de Deploy - GitHub Pages
 
 https://github.com/BacelarJV/calenchina
