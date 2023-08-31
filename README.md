@@ -1,5 +1,4 @@
 # CalenChina
-# CalenChina
 
 Este projeto tem como objetivo implementar um calendário Chines e simular o animal respectivo do ano digitado.
 
