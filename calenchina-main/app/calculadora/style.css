@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+input {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+.erro {
+  color: #e40f0f;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+.erro {
+  display: none;
+}
+
+input:invalid:not(:placeholder-shown) ~ .erro {
+  display: block;
+}
+
+select:invalid:default ~ .erro {
+  display: block;
+}
+
+input:valid ~ .erro {
+  display: none;
+}
+p {
+  font-weight: 600;
+}

@@ -1,15 +1,6 @@
 {
-  "name": "calenchina",
-  "version": "1.0.0",
-  "description": "Este projeto tem como objetivo implementar um calendário Chines e simular o animal respectivo do ano digitado.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "materialize": "^1.0.0"
+    "json-server": "^0.17.4",
+    "materialize-css": "^1.0.0-rc.2"
   }
 }

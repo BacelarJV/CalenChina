@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="../../assets/libraries/materialize-css/dist/css/materialize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="grey lighten-2">
+    <nav>
+      <div class="navbar-fixed red darken-4 z-depth-3">
+        <a href="#" class="brand-logo center"
+          ><img
+            class="responsive-img"
+            src="../../assets/resources/imges/Logo.png"
+            width="29%"
+        /></a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 offset-m3">
+          <div class="card yellow lighten-5 z-depth-2" style="margin-top: 5em">
+            <div class="card-content">
+              <h1 class="center">Cadastro</h1>
+              <form id="cadastroForm" action="#" method="post">
+                <div class="barraNome">
+                  <input
+                    type="text"
+                    name="usuario"
+                    id="usuario"
+                    placeholder="Ex: João"
+                    pattern="^[A-ZÀ-Ú][a-zà-ú]+([\s][A-ZÀ-Ú][a-zà-ú]+)*$"
+                    required
+                  />
+                  <label for="usuario">Usuário</label>
+                  <span class="erro" id="usuario-erro">Nome inválido</span>
+                </div>
+                <div class="barraSenha">
+                  <input
+                    type="password"
+                    name="senha"
+                    id="senha"
+                    placeholder="Senha"
+                    pattern=".{6,}"
+                    title="A senha deve ter no mínimo 6 caracteres"
+                    required
+                  />
+                  <label for="senha">Senha</label>
+                  <span class="erro" id="senha-erro">Mínimo 6 dígito </span>
+                </div>
+                <div class="barraCEP">
+                  <input
+                    type="text"
+                    name="CEP"
+                    id="cepInput"
+                    placeholder="CEP"
+                    required
+                  />
+                  <label for="cepInput">CEP</label>
+                </div>
+                <button
+                  data-target="modal1"
+                  id="buscarButton"
+                  class="btn waves-effect waves-light green darken-1 btn modal-trigger"
+                  type="button"
+                >
+                  Buscar CEP
+                </button>
+                <button
+                  onclick="M.toast({html: 'Cadastro realizado!'})"
+                  id="cadastrarButton"
+                  class="btn waves-effect waves-light red darken-1"
+                  type="submit"
+                >
+                  Cadastrar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal1" class="modal">
+      <div class="modal-content center">
+        <h4>Informações do CEP</h4>
+        <p id="cepInfo">CEP:</p>
+        <p id="logradouroInfo">Logradouro:</p>
+        <p id="bairroInfo">Bairro:</p>
+        <p id="cidadeInfo">Cidade:</p>
+        <p id="estadoInfo">Estado:</p>
+      </div>
+      <div class="modal-footer">
+        <label>
+          <input id="confirmação-checkbox" type="checkbox" />
+          <span>Confirmar dados</span>
+        </label>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Ok</a
+        >
+      </div>
+    </div>
+
+    <div class="SideBar center">
+      <div class="col s12">
+        <a
+          href="../index.html"
+          class="btn waves-effect waves-light blue-grey lighten-2"
+        >
+          Voltar para o Login
+          <i class="material-icons right">arrow_back</i>
+        </a>
+      </div>
+    </div>
+    <script src="../../assets/libraries/jquery/dist/jquery.js"></script>
+    <script src="../../assets/libraries/jquery.mask.min.js"></script>
+    <script src="../../assets/libraries/materialize-css/dist/js/materialize.js"></script>
+    <script src="cadastro.js"></script>
+  </body>
+</html>

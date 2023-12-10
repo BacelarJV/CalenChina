@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora</title>
+     <link
+      rel="stylesheet"
+      href="../../assets/libraries/materialize-css/dist/css/materialize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="grey lighten-2">
+     <div class="navbar-fixed">
+    <nav>
+    <div class="nav-wrapper red darken-4 z-depth-3">
+      <a  class="brand-logo center"><img class="responsive-img" src="../../assets/resources/imges/Logo.png" width="29%"> </a>
+      <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../../app/home/home.html">Home</a></li>
+        <li><a href="../../app/calculadora/calculadora.html">Calculadora</a></li>
+        <li><a href="../index.html">Sair</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile">
+    <li><a href="../home/index.html">Home</a></li>
+    <li><a href="../calculadora/calculadora.html">Calculadora</a></li>
+    <li><a href="../login/index.html">Sair</a></li>
+  </ul>
+</div>
+    <div class="container center">
+         <div class="card yellow lighten-5 z-depth-2" style="margin-top: 5em">
+    <h1>Calculadora do Ano Chinês</h1>
+    <input style="width: 200px;" type="text" id="ano" placeholder="Ano" />
+    <button class="btn waves-effect waves-light red" onclick="calcularAnimal()">Calcular</button>
+    <p id="resultado"></p>
+      <h2>Histórico de pesquisas</h2>
+  <div id="historico-container" class="card yellow lighten-5 z-depth-2">
+  </div>
+</div>
+    </div>
+    </div>
+    </div>
+    <script src="../../assets/libraries/materialize-css/dist/js/materialize.js"></script>
+    <script src="calculadora.js"></script>
+    <script src="../../assets/resources/script/sidenav.js"></script>
+  </body>
+</html>
