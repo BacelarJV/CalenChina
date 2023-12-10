@@ -1,3 +1,8 @@
+$("#buscarButton").on("click", function () {
+  $("#modal1").slideDown(500);
+  //Animação do modal
+});
+
 $(document).ready(function () {
   $("#cepInput").mask("00000-000"); // Aplica a máscara no campo de CEP
 
