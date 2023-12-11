@@ -10,6 +10,9 @@ https://github.com/BacelarJV/calenchina
 
 https://www.figma.com/file/hKJtfDUAmheI9bx8dJq4f6/Untitled?type=design&node-id=0%3A1&mode=design&t=ryJ7KUM46CaU77O3-1
 
+## Video apresentação
+https://www.youtube.com/watch?v=KxYVmz_0NEg
+
 ## Checklist
 
 RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
